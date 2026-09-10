@@ -1,0 +1,32 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project outputs
+cloud/*.enc
+data/*.txt
+data/*.csv
+retrieved_*.txt
+users/keys/*.pem
+audit/*.log
+audit/*.json
+
+# Keep folder structure
+!cloud/.gitkeep
+!data/.gitkeep
+!users/keys/.gitkeep
+!audit/.gitkeep
